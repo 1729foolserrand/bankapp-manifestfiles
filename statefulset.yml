@@ -15,7 +15,7 @@ spec:
         app: app-database
     spec:
       containers:
-      - name: nginx
+      - name: mysql
         image: shaikmustafa/bankapp:db
         ports:
         - containerPort: 80
